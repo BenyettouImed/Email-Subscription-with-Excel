@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js"></script>
+   
+</head>
+<body class="min-h-screen"><!--  you could have done background-image : linear-gradient(....,....,url(path)) and make the image a cover -->
+    <img src="./img/background.png" alt="" class="relative min-h-screen w-[100%] lg:max-h-screen
+    ">
+    <section class="bg-black/70 absolute top-0 w-[100%] h-[100%] p-28 lg:p-48 flex flex-col gap-8">
+        <h1 class="text-3xl text-white font-medium">Coming Soon!</h1>
+        <h1 class="font-bold text-5xl text-white">Our brand new <br> website is on its way</h1>
+        <p class="text-white text-xl">Subscribe for more details</p>
+        <form name="submit-to-google-sheet" class="flex" >
+            <input type="email" name="email" id="name" class="py-2 px-6 focus:outline-none w-2/3 lg:w-2/5" placeholder="Enter your E-mail"  required >
+            <button type="submit" class="bg-green-600 p-3 text-white">Subscribe</button>
+        </form>
+        <span id="confirmationMessage" class="text-green-400 font-medium hidden">Thank you for subscribing!</span>
+        
+    </section>
+
+    
+    
+</body>
+</html>
